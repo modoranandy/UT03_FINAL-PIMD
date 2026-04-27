@@ -9,7 +9,7 @@ use Tests\TestCase;
 
 class LibroTest extends TestCase
 {
-    use RefreshDatabase; // Esto limpia la BD en memoria antes de cada test
+    use RefreshDatabase; 
 
     public function test_un_usuario_puede_crear_un_libro()
     {
