@@ -16,7 +16,7 @@ docker-compose up -d --build
 echo -e "${YELLOW}📦 Instalando dependencias (Composer)...${NC}"
 docker-compose exec -T app composer install --optimize-autoloader --no-dev
 
-# 3. Copiar .env si no existe
+
 if [ ! -f src/.env ]; then
     echo -e "${YELLOW}📄 Creando archivo .env...${NC}"
     cp src/.env.example src/.env
