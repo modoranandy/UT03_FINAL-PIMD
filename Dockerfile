@@ -1,6 +1,5 @@
 FROM php:8.2-apache
 
-# 1. Instalar dependencias del sistema y librerías necesarias para Laravel
 RUN apt-get update && apt-get install -y \
     git \
     curl \
