@@ -1,3 +1,2 @@
 User-agent: *
 Disallow:
-#A la mierda los robots
