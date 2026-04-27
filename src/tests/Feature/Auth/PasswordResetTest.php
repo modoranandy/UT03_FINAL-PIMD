@@ -18,7 +18,7 @@ class PasswordResetTest extends TestCase
 
         $response->assertStatus(200);
     }
-
+#TESTS
     public function test_reset_password_link_can_be_requested(): void
     {
         Notification::fake();
