@@ -19,7 +19,7 @@ class PrestamoTest extends TestCase
         $libro = Libro::factory()->create(['stock' => 10]);
         $alumno = Alumno::factory()->create();
 
-        // Hacemos el préstamo
+        
         $this->actingAs($user)->post(route('prestamos.store'), [
             'libro_id' => $libro->id,
             'alumno_id' => $alumno->id,
