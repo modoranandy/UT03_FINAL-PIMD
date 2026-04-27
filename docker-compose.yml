@@ -19,7 +19,6 @@ services:
     depends_on:
       - db
 
-  # --- SERVICIO BASE DE DATOS ---
   db:
     image: mariadb:10.6
     # Nombre único para que no choque con la BD de otros proyectos
