@@ -12,7 +12,7 @@ class SecurityTest extends TestCase
 
     public function test_admin_puede_ver_logs()
     {
-        // Creamos usuario Admin
+        
         $admin = User::factory()->create(['role' => 'admin']);
 
         $response = $this->actingAs($admin)->get(route('admin.logs'));
