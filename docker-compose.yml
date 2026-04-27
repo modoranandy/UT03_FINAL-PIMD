@@ -3,7 +3,7 @@ version: '3.8'
 services:
   # --- SERVICIO WEB (LARAVEL) ---
   app:
-    # Usamos un nombre de contenedor ÚNICO para que no choque con otros contenedores
+   
     container_name: librvm_web_safe
     build:
       context: .
